@@ -143,7 +143,7 @@ export default function VinayakVentureWebsite() {
               </div>
             </div>
             <div className="relative">
-              <img src="https://images.unsplash.com/photo-1587293855926-d5a2d0fdfbc8?auto=format&fit=crop&q=80" alt="Warehouse Operation" className="rounded-2xl shadow-2xl opacity-70" />
+              <img src="wherehouse.jpg" alt="Warehouse Operation" className="rounded-2xl shadow-2xl opacity-70" />
             </div>
           </div>
         </div>
