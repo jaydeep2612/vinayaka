@@ -114,7 +114,7 @@ export default function VinayakVentureWebsite() {
               <img 
                 src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80" 
                 alt="Stretch Film Industrial" 
-                className="w-full h-full object-cover opacity-40 grayscale"
+                className="w-full h-full object-cover opacity-60 "
               />
             </div>
           </div>
