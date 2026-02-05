@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 
 export default function VinayakVentureWebsite() {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,12 +20,12 @@ export default function VinayakVentureWebsite() {
     setIsVisible(true);
   }, []);
 
-  // Form Handlers
-  const handleChange = (e) => {
+  // Form Handlers with TypeScript types
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setStatus("");
@@ -193,7 +193,7 @@ export default function VinayakVentureWebsite() {
         </div>
       </section>
 
-      {/* 6. CONTACT SECTION (YOUR SPECIFIC REQUEST) */}
+      {/* 6. CONTACT SECTION */}
       <section id="contact" className="py-24 bg-slate-50 px-6 md:px-20">
         <div className="container mx-auto max-w-6xl">
           <div className="bg-white shadow-[0_20px_50px_rgba(27,43,58,0.15)] rounded-[3rem] overflow-hidden grid grid-cols-1 md:grid-cols-2">
@@ -229,7 +229,7 @@ export default function VinayakVentureWebsite() {
                   <div className="flex items-start gap-4 group">
                     <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center group-hover:bg-[#28A745] transition-colors shrink-0">📍</div>
                     <p className="text-xs text-slate-400 leading-relaxed uppercase tracking-widest">
-                      <a href="https://maps.google.com/?q=491-C/19,+Chandan+Complex,+Makarpura,+Vadodara" target="_blank" rel="noopener noreferrer">
+                      <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">
                         491-C/19, Chandan Complex, <br />
                         Opp. Himalaya Factory, G.I.D.C., <br />
                         Makarpura, Vadodara-390010.
