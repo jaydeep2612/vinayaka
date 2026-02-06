@@ -63,11 +63,11 @@ export default function VinayakVentureWebsite() {
       {/* 1. NAVBAR */}
       <nav className="fixed top-0 w-full z-50 bg-[#1B212C] border-b border-white/5 px-6 py-2">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4">
-          <div className="flex items-center gap-3 overflow-hidden">
+          <div className="flex  items-center gap-3 overflow-hidden">
             <img 
               src="lo1.png" 
               alt="Vinayak Venture Logo" 
-              className="h-40 md:h-25 w-auto object-contain" 
+              className="h-10 md:h-15 w-auto object-contain" 
             />
           </div>
           
