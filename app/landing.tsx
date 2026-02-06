@@ -47,7 +47,7 @@ export default function VinayakVentureWebsite() {
       const data = await res.json();
       if (res.ok) {
         setSuccess(true);
-        setFormData({ name: "", email: "", subject: "", message: "" });
+        setFormData({ name: "", email: "", contact:"", subject: "", message: "" });
       }
       setStatus(data.message);
     } catch {
