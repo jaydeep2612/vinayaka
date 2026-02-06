@@ -146,7 +146,7 @@ export default function VinayakVentureWebsite() {
           <div className="w-full md:w-1/2 relative h-[350px] md:h-[600px]">
             <div className="absolute inset-0 bg-[#334155] overflow-hidden" style={{ clipPath: 'polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%)' }}>
               <img 
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80" 
+                src="image.png" 
                 alt="Stretch Film Industrial" 
                 className="w-full h-full object-cover opacity-60 "
               />
